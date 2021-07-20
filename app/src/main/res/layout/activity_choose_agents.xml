@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Choose_agents"
+    android:background="@color/valo_black">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHOOSE AGENT"
+            android:textSize="40sp"
+            android:fontFamily="@font/valorant_font"
+            android:textColor="@color/valo_red"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/jett"
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/valo_agents_jett_card"
+                android:layout_marginTop="30dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant_font"
+                    android:text="JETT"
+                    android:textSize="42dp"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DUELIST"
+                    android:alpha="0.3"
+                    android:fontFamily="@font/valorant_font"
+                    android:textColor="#81B4BD"
+                    android:textSize="50dp"
+                    android:layout_centerInParent="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cool. Let's go."
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/valorant_font"
+                    android:textSize="15dp"
+                    android:textColor="#14172C"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="153dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-10dp"
+                android:src="@drawable/jett" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/viper"
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/valo_agent_viper_card"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant_font"
+                    android:text="VIPER"
+                    android:textSize="42dp"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONTROLLER"
+                    android:fontFamily="@font/valorant_font"
+                    android:textColor="#D7EEE6"
+                    android:alpha="0.3"
+                    android:textSize="50dp"
+                    android:layout_centerInParent="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No one can hold their\n breath forever."
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/valorant_font"
+                    android:textSize="15dp"
+                    android:textColor="#00BF4B"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="153dp"
+                android:layout_height="190dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-10dp"
+                android:src="@drawable/viper" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/raze"
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/valo_agent_raze_card"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant_font"
+                    android:text="RAZE"
+                    android:textSize="42dp"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DUELIST"
+                    android:fontFamily="@font/valorant_font"
+                    android:textColor="#27474A"
+                    android:alpha="0.3"
+                    android:textSize="50dp"
+                    android:layout_centerInParent="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes, I'm pumped!"
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/valorant_font"
+                    android:textSize="15dp"
+                    android:textColor="#A9321F"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="153dp"
+                android:layout_height="190dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-5dp"
+                android:src="@drawable/raze" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/sage"
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/valo_agent_sage_card"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant_font"
+                    android:text="SAGE"
+                    android:textSize="42dp"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SENTINEL"
+                    android:fontFamily="@font/valorant_font"
+                    android:textColor="#3491AB"
+                    android:alpha="0.3"
+                    android:textSize="50dp"
+                    android:layout_centerInParent="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I am both shield and sword."
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/valorant_font"
+                    android:textSize="15dp"
+                    android:textColor="#8CDDED"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="148dp"
+                android:layout_height="176dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/sage" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/phoenix"
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/valo_agent_phoenix_card"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant_font"
+                    android:text="PHOENIX"
+                    android:textSize="42dp"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DUELIST"
+                    android:fontFamily="@font/valorant_font"
+                    android:textColor="#FAD284"
+                    android:alpha="0.3"
+                    android:textSize="50dp"
+                    android:layout_centerInParent="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Just take a seat, I got this."
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/valorant_font"
+                    android:textSize="15dp"
+                    android:textColor="#FBEC9A"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="148dp"
+                android:layout_height="176dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/phoenix" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/reyna"
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/valo_agent_reyna_card"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant_font"
+                    android:text="REYNA"
+                    android:textSize="42dp"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DUELIST"
+                    android:fontFamily="@font/valorant_font"
+                    android:textColor="#F332E7"
+                    android:alpha="0.3"
+                    android:textSize="50dp"
+                    android:layout_centerInParent="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="They have no idea\n how heartless I am."
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/valorant_font"
+                    android:textSize="15dp"
+                    android:textColor="#BC55F9"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="148dp"
+                android:layout_height="176dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/reyna" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/sova"
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/valo_agent_sova_card"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant_font"
+                    android:text="SOVA"
+                    android:textSize="42dp"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="INITIATOR"
+                    android:fontFamily="@font/valorant_font"
+                    android:textColor="#3466A4"
+                    android:alpha="0.3"
+                    android:textSize="50dp"
+                    android:layout_centerInParent="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wherever they run,\nI will find them."
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/valorant_font"
+                    android:textSize="15dp"
+                    android:textColor="#B0BDBD"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="148dp"
+                android:layout_height="176dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/sova" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/brimstone"
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/valo_agent_brimstone_card"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant_font"
+                    android:text="BRIMSTONE"
+                    android:textSize="42dp"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONTROLLER"
+                    android:fontFamily="@font/valorant_font"
+                    android:textColor="#FAD284"
+                    android:alpha="0.3"
+                    android:textSize="50dp"
+                    android:layout_centerInParent="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="They think I'm an old dog?\nHeh, I'll show them \nhow many tricks I know."
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/valorant_font"
+                    android:textSize="15dp"
+                    android:textColor="#541707"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/brimstone" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/omen"
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/valo_agent_omen_card"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant_font"
+                    android:text="OMEN"
+                    android:textSize="42dp"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONTROLLER"
+                    android:fontFamily="@font/valorant_font"
+                    android:textColor="#7D7FB8"
+                    android:alpha="0.3"
+                    android:textSize="50dp"
+                    android:layout_centerInParent="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I am the beginning.\nI am the end."
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/valorant_font"
+                    android:textSize="15dp"
+                    android:textColor="#9AA2BC"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="161dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/omen" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/yoru"
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/valo_agent_yoru_card"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant_font"
+                    android:text="YORU"
+                    android:textSize="42dp"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DUELIST"
+                    android:fontFamily="@font/valorant_font"
+                    android:textColor="#1993E0"
+                    android:alpha="0.3"
+                    android:textSize="50dp"
+                    android:layout_centerInParent="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I'll fight anybody.\n I'll fight everybody."
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/valorant_font"
+                    android:textSize="15dp"
+                    android:textColor="#6987D4"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="148dp"
+                android:layout_height="176dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/yoru" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/killjoy"
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/valo_agent_killjoy_card"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant_font"
+                    android:text="KILLJOY"
+                    android:textSize="42dp"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SENTINEL"
+                    android:fontFamily="@font/valorant_font"
+                    android:textColor="#FEED2D"
+                    android:alpha="0.5"
+                    android:textSize="50dp"
+                    android:layout_centerInParent="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Relax, I've already\n thought of everything!"
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/valorant_font"
+                    android:textSize="15dp"
+                    android:textColor="#FCEB2E"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="148dp"
+                android:layout_height="176dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/killjoy" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/astra"
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/valo_agent_astra_card"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant_font"
+                    android:text="ASTRA"
+                    android:textSize="42dp"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONTROLLER"
+                    android:fontFamily="@font/valorant_font"
+                    android:textColor="#83C4FA"
+                    android:alpha="0.3"
+                    android:textSize="50dp"
+                    android:layout_centerInParent="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="What up, suckers?\n You okay?"
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/valorant_font"
+                    android:textSize="15dp"
+                    android:textColor="#EF6A96"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="148dp"
+                android:layout_height="176dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/astra" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/skye"
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/valo_agent_skye_card"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant_font"
+                    android:text="SKYE"
+                    android:textSize="42dp"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="INITIATOR"
+                    android:fontFamily="@font/valorant_font"
+                    android:textColor="#51E4B7"
+                    android:alpha="0.3"
+                    android:textSize="50dp"
+                    android:layout_centerInParent="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alright, where's the fight?"
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/valorant_font"
+                    android:textSize="15dp"
+                    android:textColor="#8EFCE7"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="148dp"
+                android:layout_height="176dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/skye" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/breach"
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/valo_agent_breach_card"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant_font"
+                    android:text="BREACH"
+                    android:textSize="42dp"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="INITIATOR"
+                    android:fontFamily="@font/valorant_font"
+                    android:textColor="#ED7533"
+                    android:alpha="0.5"
+                    android:textSize="50dp"
+                    android:layout_centerInParent="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stand in my way,\nI dare you"
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/valorant_font"
+                    android:textSize="15dp"
+                    android:textColor="#FBF996"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="148dp"
+                android:layout_height="176dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/breach" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:id="@+id/cypher"
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/valo_agent_cypher_card"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant_font"
+                    android:text="CYPHER"
+                    android:textSize="42dp"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SENTINEL"
+                    android:fontFamily="@font/valorant_font"
+                    android:textColor="#B9B9B9"
+                    android:alpha="0.3"
+                    android:textSize="50dp"
+                    android:layout_centerInParent="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nothing stays hidden \nfrom me. Nothing."
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/valorant_font"
+                    android:textSize="15dp"
+                    android:textColor="#F8F8F8"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="148dp"
+                android:layout_height="176dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/cypher" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    </ScrollView>

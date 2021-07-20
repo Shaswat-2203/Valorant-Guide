@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.valorantguide">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ValorantGuide">
+        <activity android:name=".Full_screen_video"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".Full_screen"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.ValorantGuide" />
+        <activity
+            android:name=".Sova_ascent"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.ValorantGuide" />
+        <activity
+            android:name=".Jett_ascent"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Cypher" />
+        <activity android:name=".Breach" />
+        <activity android:name=".Skye" />
+        <activity android:name=".Astra" />
+        <activity android:name=".Killjoy" />
+        <activity android:name=".Yoru" />
+        <activity android:name=".Omen" />
+        <activity android:name=".Brimstone" />
+        <activity android:name=".Sova" />
+        <activity android:name=".Reyna" />
+        <activity android:name=".Phoenix" />
+        <activity android:name=".Sage" />
+        <activity android:name=".Raze" />
+        <activity android:name=".Viper" />
+        <activity android:name=".Jett" />
+        <activity android:name=".Choose_agents" />
+        <activity android:name=".Splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
