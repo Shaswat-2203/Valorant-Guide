@@ -16,6 +16,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class Sova_ascent extends AppCompatActivity {
 
     myadapter adapter1,adapter2,adapter3,adapter4,adapter5,adapter6,adapter7,adapter8,adapter9,adapter10;
+
     RecyclerView recView1,recView2,recView3,recView4,recView5,recView6,recView7,recView8,recView9,recView10;
     ImageView img1,img2,img3,img4,img5,img6,img7,img8,img9,img10;
     @Override
@@ -171,6 +172,7 @@ public class Sova_ascent extends AppCompatActivity {
                 new FirebaseRecyclerOptions.Builder<model>()
                         .setQuery(FirebaseDatabase.getInstance().getReference().child("Sova").child("Ascent").child("defend_b"), model.class)
                         .build();
+
         adapter4=new myadapter(options);
         recView4.setAdapter(adapter4);
     }

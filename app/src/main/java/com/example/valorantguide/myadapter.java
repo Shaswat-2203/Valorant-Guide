@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -27,7 +28,9 @@ public class myadapter extends FirebaseRecyclerAdapter<model,myadapter.myviewhol
 
     @Override
     protected void onBindViewHolder(@NonNull myviewholder holder, int position, @NonNull model model) {
+//        Toast.makeText(holder.img.getContext(),"NO ERROR",Toast.LENGTH_SHORT).show();
         Glide.with(holder.img.getContext()).load(model.getPurl()).into(holder.img);
+
         holder.img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

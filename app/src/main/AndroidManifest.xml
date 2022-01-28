@@ -3,16 +3,50 @@
     package="com.example.valorantguide">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <application
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ValorantGuide">
-        <activity android:name=".Full_screen_video"
-            android:screenOrientation="landscape"></activity>
+        android:theme="@style/Theme.ValorantGuide"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".cypher_split"
+            android:screenOrientation="landscape" ></activity>
+        <activity android:name=".cypher_bind"
+            android:screenOrientation="landscape" />
+        <activity android:name=".cypher_haven"
+            android:screenOrientation="landscape" />
+        <activity android:name=".cypher_ascent"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".brimstone_bind"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".brimstone_breeze"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".brimstone_haven"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".brimstone_ascent"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Sova_bind"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Sova_Split"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Sova_haven"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Full_screen_video"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".Full_screen"
             android:screenOrientation="landscape"
@@ -21,24 +55,12 @@
             android:name=".Sova_ascent"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.ValorantGuide" />
-        <activity
-            android:name=".Jett_ascent"
-            android:screenOrientation="landscape" />
         <activity android:name=".Cypher" />
-        <activity android:name=".Breach" />
-        <activity android:name=".Skye" />
-        <activity android:name=".Astra" />
         <activity android:name=".Killjoy" />
-        <activity android:name=".Yoru" />
-        <activity android:name=".Omen" />
         <activity android:name=".Brimstone" />
         <activity android:name=".Sova" />
-        <activity android:name=".Reyna" />
-        <activity android:name=".Phoenix" />
-        <activity android:name=".Sage" />
-        <activity android:name=".Raze" />
+        <activity android:name=".Kayo" />
         <activity android:name=".Viper" />
-        <activity android:name=".Jett" />
         <activity android:name=".Choose_agents" />
         <activity android:name=".Splash_screen">
             <intent-filter>

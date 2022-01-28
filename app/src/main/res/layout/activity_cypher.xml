@@ -77,7 +77,7 @@
             android:layout_margin="10dp">
 
             <RelativeLayout
-
+                android:id="@+id/ascent"
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="190dp"
@@ -109,7 +109,7 @@
             android:layout_margin="10dp">
 
             <RelativeLayout
-
+                android:id="@+id/haven"
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="190dp"
@@ -141,7 +141,7 @@
             android:layout_margin="10dp">
 
             <RelativeLayout
-
+                android:id="@+id/bind"
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="190dp"
@@ -173,7 +173,7 @@
             android:layout_margin="10dp">
 
             <RelativeLayout
-
+                android:id="@+id/split"
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="190dp"
@@ -188,70 +188,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="BIND"
-                    android:fontFamily="@font/valorant_font"
-                    android:textColor="#FFFFFF"
-                    android:alpha="1"
-                    android:textSize="50dp"
-                    android:layout_centerInParent="true"/>
-
-
-            </RelativeLayout>
-
-
-        </RelativeLayout>
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="210dp"
-            android:layout_margin="10dp">
-
-            <RelativeLayout
-
-                android:layout_margin="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="190dp"
-
-                android:background="@drawable/icebox"
-                android:padding="50dp"
-                android:alpha="0.8"
-                android:layout_marginTop="30dp">
-
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="ICEBOX"
-                    android:fontFamily="@font/valorant_font"
-                    android:textColor="#FFFFFF"
-                    android:alpha="1"
-                    android:textSize="50dp"
-                    android:layout_centerInParent="true"/>
-
-
-            </RelativeLayout>
-
-
-        </RelativeLayout>
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="210dp"
-            android:layout_margin="10dp">
-
-            <RelativeLayout
-
-                android:layout_margin="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="190dp"
-
-                android:background="@drawable/breeze"
-                android:padding="50dp"
-                android:alpha="0.8"
-                android:layout_marginTop="30dp">
-
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="BREEZE"
                     android:fontFamily="@font/valorant_font"
                     android:textColor="#FFFFFF"
                     android:alpha="1"

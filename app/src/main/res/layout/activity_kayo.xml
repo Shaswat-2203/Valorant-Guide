@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Brimstone"
+    tools:context=".Kayo"
     android:background="@color/valo_black">
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,11 +16,12 @@
             android:layout_height="590dp"
 
             >
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/brimstone_background"
-                android:alpha="0.5"/>
+                android:alpha="0.5"
+                android:src="@drawable/kayo_background" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -28,20 +29,20 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/valorant_font"
-                android:text="BRIMSTONE"
+                android:text="KAY/O"
 
                 android:textColor="@color/white"
                 android:textSize="42dp" />
 
             <ImageView
-                android:layout_width="275dp"
-                android:layout_height="377dp"
+                android:layout_width="251dp"
+                android:layout_height="332dp"
                 android:layout_alignParentBottom="true"
 
-                android:layout_marginLeft="-50dp"
+                android:layout_marginLeft="-20dp"
 
-                android:layout_marginBottom="-34dp"
-                android:src="@drawable/brimstone" />
+                android:layout_marginBottom="19dp"
+                android:src="@drawable/kayo" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -49,16 +50,16 @@
                 android:text="// BIOGRAPHY"
                 android:textSize="24dp"
                 android:fontFamily="@font/valorant_font"
-                android:textColor="#FCD742"
+                android:textColor="#6f8fe5"
                 android:layout_alignParentBottom="true"/>
 
         </RelativeLayout>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="\nJoining from the USA, Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and from a distance make him an unmatched boots-on-the-ground commander."
+            android:text="\nKAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to suppress enemy abilities cripples his opponents' capacity to fight back, securing him and his allies the ultimate edge."
             android:fontFamily="@font/valorant_font"
-            android:textColor="#FCD742"
+            android:textColor="#6f8fe5"
             android:textSize="16dp"
             android:lineSpacingExtra="4dp"/>
         <TextView
@@ -81,7 +82,7 @@
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="190dp"
-                android:id="@+id/ascent"
+
                 android:background="@drawable/ascent"
                 android:padding="50dp"
                 android:alpha="0.8"
@@ -113,7 +114,7 @@
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="190dp"
-                android:id="@+id/haven"
+
                 android:background="@drawable/haven"
                 android:padding="50dp"
                 android:alpha="0.8"
@@ -135,7 +136,6 @@
 
 
         </RelativeLayout>
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="210dp"
@@ -146,7 +146,39 @@
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="190dp"
-                android:id="@+id/bind"
+
+                android:background="@drawable/split"
+                android:padding="50dp"
+                android:alpha="0.8"
+                android:layout_marginTop="30dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SPLIT"
+                    android:fontFamily="@font/valorant_font"
+                    android:textColor="#FFFFFF"
+                    android:alpha="1"
+                    android:textSize="50dp"
+                    android:layout_centerInParent="true"/>
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_margin="10dp">
+
+            <RelativeLayout
+
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+
                 android:background="@drawable/bind"
                 android:padding="50dp"
                 android:alpha="0.8"
@@ -168,7 +200,6 @@
 
 
         </RelativeLayout>
-        
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="210dp"
@@ -179,7 +210,39 @@
                 android:layout_margin="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="190dp"
-                android:id="@+id/breeze"
+
+                android:background="@drawable/icebox"
+                android:padding="50dp"
+                android:alpha="0.8"
+                android:layout_marginTop="30dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ICEBOX"
+                    android:fontFamily="@font/valorant_font"
+                    android:textColor="#FFFFFF"
+                    android:alpha="1"
+                    android:textSize="50dp"
+                    android:layout_centerInParent="true"/>
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_margin="10dp">
+
+            <RelativeLayout
+
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+
                 android:background="@drawable/breeze"
                 android:padding="50dp"
                 android:alpha="0.8"
@@ -202,5 +265,4 @@
 
         </RelativeLayout>
     </LinearLayout>
-
 </ScrollView>

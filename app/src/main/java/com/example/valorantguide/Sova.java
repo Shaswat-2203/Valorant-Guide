@@ -10,7 +10,7 @@ import android.widget.RelativeLayout;
 
 public class Sova extends AppCompatActivity {
 
-    RelativeLayout ascent, haven, split, bind,icebox, breeze;
+    RelativeLayout ascent, haven, split, bind;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,8 +19,7 @@ public class Sova extends AppCompatActivity {
         haven= findViewById(R.id.haven);
         split=findViewById(R.id.split);
         bind=findViewById(R.id.bind);
-        icebox=findViewById(R.id.icebox);
-        breeze=findViewById(R.id.breeze);
+
         ascent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -32,31 +31,25 @@ public class Sova extends AppCompatActivity {
         haven.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent=new Intent(Sova.this, Sova_haven.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.fadein,R.anim.fadeout);
             }
         });
         split.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent=new Intent(Sova.this, Sova_Split.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.fadein,R.anim.fadeout);
             }
         });
         bind.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-            }
-        });
-        icebox.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
-        breeze.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
+                Intent intent=new Intent(Sova.this, Sova_bind.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.fadein,R.anim.fadeout);
             }
         });
     }
